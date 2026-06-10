@@ -287,33 +287,33 @@ body {
 /*  GENERATIVE AI    */
 /*********************/
 
-.generative-ai {
+.generative_ai {
     margin-top: 10rem; /* 與其他頁面內容區塊保持一致的頂部間距 */
 }
 
-.generative-ai .page-title {
+.generative_ai .page-title {
     color: var(--highlights-color); /* 讓標題顏色與其他頁面標題一致 */
     font-weight: 900; /* 讓標題字重與其他頁面標題一致 */
 }
 
 /* 如果你希望 AI 工具的卡片有不同的懸停效果或任何其他特有樣式，可以添加到這裡 */
 /* 例如，如果你想讓 AI 工具的卡片在懸停時有特殊的縮放效果 */
-.generative-ai .card-design {
+.generative_ai .card-design {
     transition: 0.3s; /* 確保懸停效果平滑 */
 }
 
-.generative-ai .card-design:hover {
+.generative_ai .card-design:hover {
     transform: translateY(-5px); /* 輕微上移效果 */
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* 增加陰影深度 */
 }
 
 /* 如果你希望按鈕有特殊的樣式，但又不想影響全域的 .btn 樣式，也可以在這裡定義 */
 /* 例如，如果你的 AI 圖片生成按鈕想用 highlights-v2-color */
-.generative-ai .btn-ai-primary {
+.generative_ai .btn-ai-primary {
     background-color: var(--highlights-v2-color);
 }
 
-.generative-ai .btn-ai-primary:hover {
+.generative_ai .btn-ai-primary:hover {
     background-color: var(--buttons-hover-color); /* 或者定義一個新的 hover 顏色 */
 }
 
