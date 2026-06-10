@@ -63,7 +63,7 @@ def portfolio():
 
     return render_template("portfolio.html", repos=repos)
 
-@app.route('/generative-ai')
+@app.route('/generative_ai')
 @cache.cached()
 def generative_ai():
     """Renders the 'Generative_AI' page of the website."""
