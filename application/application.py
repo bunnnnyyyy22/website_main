@@ -63,6 +63,13 @@ def portfolio():
 
     return render_template("portfolio.html", repos=repos)
 
+@app.route('/generative-ai')
+@cache.cached()
+def generative_ai():
+    """Renders the 'Generative_AI' page of the website."""
+    # 你可以在這裡定義一些變數傳給模板，如果需要的話
+    # 這裡我們不需要傳遞額外資料
+    return render_template('generative_ai.html')
 
 @app.route("/contact", methods=["GET", "POST"])
 @cache.cached()
